@@ -17,7 +17,7 @@ public class LecturaArchivo {
 					// Apertura del fichero y creacion de BufferedReader para poder
 			         // hacer una lectura comoda (disponer del metodo readLine()).
 					String path = System.getProperty("user.dir");
-			        archivo = new File ( path + "//guategrafo.txt");
+			        archivo = new File ( path + "\\guategrafo.txt");
 			        fr = new FileReader (archivo);
 			        br = new BufferedReader(fr);
 
